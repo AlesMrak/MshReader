@@ -1,0 +1,117 @@
+
+[Common] //counts 3
+NumBones 0 //bytes 12
+FramesType Single //bytes 18
+NumFrames 1 //bytes 13
+//total size: 43 bytes
+
+[LOD] //counts 3
+16 //bytes 1
+25 //bytes 1
+75 //bytes 1
+//total size: 3 bytes
+
+[Materials] //counts 1
+number_3_ger //bytes 13
+//total size: 13 bytes
+
+[FaceGroups] //counts 2
+04 fe  //bytes 2
+fe 00 04 fc 02 fe  //bytes 6
+//total size: 8 bytes
+
+[Vertices_Frame0] //counts 4
+-0,498444 0,262939 -0,496979 0,424686 -0,885718 -0,187471  //bytes 24
+-0,5383 0,243835 -0,497009 0,424686 -0,885718 -0,187471  //bytes 24
+-0,55249 0,25882 -0,599945 0,424686 -0,885718 -0,187471  //bytes 24
+-0,512634 0,277924 -0,599915 0,424686 -0,885718 -0,187471  //bytes 24
+//total size: 96 bytes
+
+[Space_Frame0] //counts 4
+190 217 102 63 43 78 221 62 11 233 49 58 43 104 10 190 32 41 18 62 67 1 123 191 114 112 217 62 106 190 98 191 102 248 63 190  //bytes 36
+190 217 102 63 43 78 221 62 168 255 49 58 43 104 10 190 32 41 18 62 67 1 123 191 114 112 217 62 106 190 98 191 102 248 63 190  //bytes 36
+190 217 102 63 43 78 221 62 11 233 49 58 43 104 10 190 32 41 18 62 67 1 123 191 114 112 217 62 106 190 98 191 102 248 63 190  //bytes 36
+190 217 102 63 43 78 221 62 109 210 49 58 43 104 10 190 32 41 18 62 67 1 123 191 114 112 217 62 106 190 98 191 102 248 63 190  //bytes 36
+//total size: 144 bytes
+
+[MaterialMapping] //counts 4
+9,178925E-41 4,344025E-44  //bytes 6
+4,344025E-44 4,344025E-44  //bytes 6
+4,344025E-44 9,178925E-41  //bytes 6
+9,178925E-41 9,178925E-41  //bytes 6
+//total size: 24 bytes
+
+[Faces] //counts 2
+0 1 2 //bytes 3
+2 3 0 //bytes 3
+//total size: 6 bytes
+
+[LOD1_Materials] //counts 1
+number_3_ger //bytes 13
+//total size: 13 bytes
+
+[LOD1_FaceGroups] //counts 2
+04 fe  //bytes 2
+fe 00 04 fc 02 fe  //bytes 6
+//total size: 8 bytes
+
+[LOD1_Vertices_Frame0] //counts 4
+-32,513 17,152 -32,513 27,648 7,679 -12,033  //bytes 18
+30,463 15,872 -32,513 27,648 7,679 -12,033  //bytes 18
+29,439 16,896 26,367 27,648 7,679 -12,033  //bytes 18
+31,999 18,176 26,367 27,648 7,679 -12,033  //bytes 18
+//total size: 72 bytes
+
+[LOD1_Space_Frame0] //counts 4
+217 230 0 166 110 0 43 0 0 103 221 255 137 36 0 0 5 255 183 108 0 67 29 255 3 208 255  //bytes 27
+217 230 0 166 110 0 43 0 0 103 221 255 137 36 0 0 5 255 183 108 0 67 29 255 3 208 255  //bytes 27
+217 230 0 166 110 0 43 0 0 103 221 255 137 36 0 0 5 255 183 108 0 67 29 255 3 208 255  //bytes 27
+217 230 0 166 110 0 43 0 0 103 221 255 137 36 0 0 5 255 183 108 0 67 29 255 3 208 255  //bytes 27
+//total size: 108 bytes
+
+[LOD1_MaterialMapping] //counts 4
+9,178925E-41 4,344025E-44  //bytes 6
+4,344025E-44 4,344025E-44  //bytes 6
+4,344025E-44 9,178925E-41  //bytes 6
+9,178925E-41 9,178925E-41  //bytes 6
+//total size: 24 bytes
+
+[LOD1_Faces] //counts 2
+0 1 2 //bytes 3
+2 3 0 //bytes 3
+//total size: 6 bytes
+
+[LOD2_Materials] //counts 1
+number_3_ger //bytes 13
+//total size: 13 bytes
+
+[LOD2_FaceGroups] //counts 2
+04 fe  //bytes 2
+fe 00 04 fc 02 fe  //bytes 6
+//total size: 8 bytes
+
+[LOD2_Vertices_Frame0] //counts 4
+-32,513 17,152 -32,513 27,648 7,679 -12,033  //bytes 18
+30,463 15,872 -32,513 27,648 7,679 -12,033  //bytes 18
+29,439 16,896 26,367 27,648 7,679 -12,033  //bytes 18
+31,999 18,176 26,367 27,648 7,679 -12,033  //bytes 18
+//total size: 72 bytes
+
+[LOD2_Space_Frame0] //counts 4
+217 230 0 166 110 0 43 0 0 103 221 255 137 36 0 0 5 255 183 108 0 67 29 255 3 208 255  //bytes 27
+217 230 0 166 110 0 43 0 0 103 221 255 137 36 0 0 5 255 183 108 0 67 29 255 3 208 255  //bytes 27
+217 230 0 166 110 0 43 0 0 103 221 255 137 36 0 0 5 255 183 108 0 67 29 255 3 208 255  //bytes 27
+217 230 0 166 110 0 43 0 0 103 221 255 137 36 0 0 5 255 183 108 0 67 29 255 3 208 255  //bytes 27
+//total size: 108 bytes
+
+[LOD2_MaterialMapping] //counts 4
+9,178925E-41 4,344025E-44  //bytes 6
+4,344025E-44 4,344025E-44  //bytes 6
+4,344025E-44 9,178925E-41  //bytes 6
+9,178925E-41 9,178925E-41  //bytes 6
+//total size: 24 bytes
+
+[LOD2_Faces] //counts 2
+0 1 2 //bytes 3
+2 3 0 //bytes 3
+//total size: 6 bytes

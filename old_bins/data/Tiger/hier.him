@@ -1,0 +1,320 @@
+[_ROOT_]
+VisibilitySphere 4.12312
+CollisionObject sphere 4.12312 0.0 0.0 0.0
+[Body]
+Mesh Body
+Parent _ROOT_
+Attaching 1 0 0 0 1 0 0 0 1 -0.23132 0.0195 0.58852
+CollisionObject x_hull1
+CollisionObject x_hull2
+CollisionObject x_Driver
+CollisionObject x_Shooter
+CollisionObject x_transm1
+CollisionObject x_transm2
+CollisionObject x_engine
+[Head]
+Mesh Head
+Parent Body
+Attaching 1 0 0 0 1 0 0 0 1 0.01519 0 1.36489
+CollisionObject head
+CollisionObject x_infantry
+CollisionObject x_Commander
+CollisionObject x_Loader
+CollisionObject x_ammo5
+CollisionObject x_comHead
+[Mask]
+Mesh Mask
+Parent Head
+Attaching 1 0 0 0 1 0 0 0 1 1.44851 -0.048 0.43198
+CollisionObject x_mask
+[Stvol]
+Mesh Stvol
+Parent Mask
+Attaching 1 0 0 0 1 0 0 0 1 0 0 0
+CollisionObject x_stvol
+[Antenna1]
+Mesh Antenna1
+Parent Body
+Separable
+Attaching 0 0 1 -1 0 0 0 -1 0 -2.80761 -1.24362 2.52346
+CollisionObject x_Antenna
+[ZIP1]
+Mesh ZIP1
+Parent Body
+Separable
+Attaching -1 0 0 0 -1 0 0 0 1 -2.83651 -0.86022 1.41721
+CollisionObject x_zip1
+[ZIP2]
+Mesh ZIP2
+Parent Body
+Separable
+Attaching -1 0 0 0 -1 0 0 0 1 -3.51933 -1.07347 1.09932
+CollisionObject x_zip2
+[Exhaust_Pipe1]
+Mesh Exhaust_Pipe1
+Parent Body
+Separable
+Attaching -1 0 0 0 -1 0 0 0 1 -3.73433 0.37658 1.2144
+CollisionObject x_Exhaust_Pipe1
+[Exhaust_Pipe2]
+Mesh Exhaust_Pipe2
+Parent Body
+Separable
+Attaching -1 0 0 0 -1 0 0 0 1 -3.73433 -0.37658 1.2144
+CollisionObject x_Exhaust_Pipe2
+[Fara1]
+Mesh Fara1
+Parent Body
+Separable
+Attaching 1 0 0 0 1 0 0 0 1 3.0666 0.02961 1.24348
+CollisionObject x_fara1
+[Mgun1]
+Mesh Mgun1
+Parent Body
+Attaching 1 0 0 0 1 0 0 0 1 2.96713 -0.64619 1.09849
+CollisionObject x_Mgun1
+[Mgun2]
+Mesh Mgun2
+Parent Mask
+Attaching 1 0 0 0 1 0 0 0 1 0.33191 -0.32424 0.0846999
+[LK1]
+Mesh LK1
+Parent Body
+Separable
+Attaching 0 0 1 -1 0 0 0 -1 0 2.1153 0.81229 1.36472
+CollisionObject x_lk1
+[LK2]
+Mesh LK2
+Parent Body
+Separable
+Attaching 0 0 -1 -1 0 0 0 1 0 2.10709 -0.81502 1.36472
+CollisionObject x_lk2
+[LK3]
+Mesh LK3
+Parent Head
+Separable
+Attaching 0 0 1 -1 0 0 0 -1 0 -0.14791 0.84811 1.13383
+CollisionObject x_lk3
+[LK4]
+Mesh LK4
+Parent Head
+Separable
+Attaching 0 -1 0 1 0 0 0 0 1 -0.2262 -0.53465 1.04404
+CollisionObject x_lk4
+[LK5]
+Mesh LK5
+Parent Head
+Separable
+Attaching 0 1 0 -1 0 0 0 0 1 -2.2015 0.000669999 0.21971
+CollisionObject x_lk5
+[TR1]
+Mesh TR1
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 0.01633 1.41412 0.67911
+CollisionObject x_tr1
+[TR2]
+Mesh TR2
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 0.01633 -1.37304 0.67911
+CollisionObject x_tr2
+[KP1]
+Mesh KP1
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 2.83133 1.3039 0.86599
+[KP2]
+Mesh KP2
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 2.83133 -1.26281 0.86599
+[KZ1]
+Mesh KZ1
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 -2.88197 1.43857 0.68401
+[KZ2]
+Mesh KZ2
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 -2.88197 -1.39749 0.68401
+[K1]
+Mesh K1
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 2.12584 1.55583 0.52008
+[K2]
+Mesh K2
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 1.59904 1.45224 0.52008
+[K3]
+Mesh K3
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 1.07049 1.55583 0.52008
+[K4]
+Mesh K4
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 0.54331 1.45224 0.52008
+[K5]
+Mesh K5
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 0.01422 1.55583 0.52008
+[K6]
+Mesh K6
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 -0.51321 1.45224 0.52008
+[K7]
+Mesh K7
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 -1.04152 1.55583 0.52008
+[K8]
+Mesh K8
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 -1.56844 1.45224 0.52008
+[K9]
+Mesh K9
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 -2.09705 1.55583 0.52008
+[K01]
+Mesh K01
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 2.12584 -1.51475 0.52008
+[K02]
+Mesh K02
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 1.59904 -1.41116 0.52008
+[K03]
+Mesh K03
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 1.07049 -1.51475 0.52008
+[K04]
+Mesh K04
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 0.54331 -1.41116 0.52008
+[K05]
+Mesh K05
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 0.01422 -1.51475 0.52008
+[K06]
+Mesh K06
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 -0.51321 -1.41116 0.52008
+[K07]
+Mesh K07
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 -1.04152 -1.51475 0.52008
+[K08]
+Mesh K08
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 -1.56844 -1.41116 0.52008
+[K09]
+Mesh K09
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 -2.09705 -1.51475 0.52008
+[Kr1]
+Mesh Kr1
+Parent Body
+Attaching 1 0 0 0 1 0 0 0 1 3.35276 1.4691 0.75667
+CollisionObject Kr1
+[Kr2]
+Mesh Kr2
+Parent Body
+Attaching 1 0 0 0 1 0 0 0 1 3.35276 -1.4689 0.75667
+CollisionObject Kr2
+[Kr3]
+Mesh Kr3
+Parent Body
+Attaching -1 0 0 0 -1 0 0 0 1 -3.354 1.48704 0.49284
+CollisionObject Kr3
+[Kr4]
+Mesh Kr4
+Parent Body
+Attaching -1 0 0 0 -1 0 0 0 1 -3.354 -1.48704 0.49284
+CollisionObject Kr4
+[Bort_hull_1]
+Mesh Bort_hull_1
+Parent Body
+Attaching 0 1 0 -1 0 0 0 0 1 2.4451 1.7552 0.73296
+CollisionObject x_Bort_hull_1
+[Bort_hull_2]
+Mesh Bort_hull_2
+Parent Body
+Attaching 0 1 0 -1 0 0 0 0 1 1.23824 1.76538 0.71054
+CollisionObject x_Bort_hull_2
+[Bort_hull_3]
+Mesh Bort_hull_3
+Parent Body
+Attaching 0 1 0 -1 0 0 0 0 1 0.00838 1.77755 0.68467
+CollisionObject x_Bort_hull_3
+[Bort_hull_4]
+Mesh Bort_hull_4
+Parent Body
+Attaching 0 1 0 -1 0 0 0 0 1 -1.22563 1.78962 0.65903
+CollisionObject x_Bort_hull_4
+[Bort_hull_5]
+Mesh Bort_hull_5
+Parent Body
+Attaching 0 1 0 -1 0 0 0 0 1 -2.58744 1.80171 0.63336
+CollisionObject x_Bort_hull_5
+[Bort_hull_01]
+Mesh Bort_hull_01
+Parent Body
+Attaching 0 -1 0 1 0 0 0 0 1 2.4451 -1.7552 0.73296
+CollisionObject x_Bort_hull_01
+[Bort_hull_02]
+Mesh Bort_hull_02
+Parent Body
+Attaching 0 -1 0 1 0 0 0 0 1 1.23824 -1.76538 0.71054
+CollisionObject x_Bort_hull_02
+[Bort_hull_03]
+Mesh Bort_hull_03
+Parent Body
+Attaching 0 -1 0 1 0 0 0 0 1 0.00838 -1.77755 0.68467
+CollisionObject x_Bort_hull_03
+[Bort_hull_04]
+Mesh Bort_hull_04
+Parent Body
+Attaching 0 -1 0 1 0 0 0 0 1 -1.22563 -1.78962 0.65903
+CollisionObject x_Bort_hull_04
+[Bort_hull_05]
+Mesh Bort_hull_05
+Parent Body
+Attaching 0 -1 0 1 0 0 0 0 1 -2.58744 -1.80171 0.63336
+CollisionObject x_Bort_hull_05
+[under_head_00]
+Mesh under_head
+Parent _ROOT_
+Attaching 0 1 0 -1 0 0 0 0 1 -0.12014 0.01586 1.96367
+[under_head_01]
+Mesh under_head1
+Parent head
+Attaching 0 1 0 -1 0 0 0 0 1 0.29302 -0.04055 -0.0296
+[dummi1]
+Mesh dummi1
+Parent Body
+Attaching 1 0 0 0 1 0 0 0 1 -0.18491 0.00551 0.52689
+CollisionObject x_bz1
+CollisionObject x_bz2
+CollisionObject x_ammo1
+CollisionObject x_ammo2
+CollisionObject x_ammo3
+CollisionObject x_ammo4
+[marker_1_ger]
+Mesh marker_1_ger
+Parent head
+Hidden
+Attaching -0.34086 -0.664761 -0.664761 0.940113 -0.241026 -0.241026 0 -0.707107 0.707107 0.27743 -1.3913 0.53329
+[regiment_1_ger]
+Mesh regiment_1_ger
+Parent body
+Hidden
+Attaching 0 1 0 -0.576041 0 -0.817421 -0.817421 0 0.576041 2.77635 1.17738 1.21515
+[digit_a3_ger]
+Mesh digit_a3_ger
+Parent head
+Hidden
+Attaching 0 1 0 -1 0 0 0 0 1 -0.83728 -0.03067 0.49491
+[digit_a2_ger]
+Mesh digit_a2_ger
+Parent head
+Hidden
+Attaching 0 1 0 -1 0 0 0 0 1 -0.83019 -0.03378 0.4949
+[digit_a1_ger]
+Mesh digit_a1_ger
+Parent head
+Hidden
+Attaching 0 1 0 -1 0 0 0 0 1 -0.83731 -0.03619 0.49491

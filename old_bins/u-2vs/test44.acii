@@ -1,0 +1,29 @@
+
+[Common] //counts 3
+NumBones 0 //bytes 12
+FramesType Single //bytes 18
+NumFrames 1 //bytes 13
+//total size: 43 bytes
+
+[LOD] //counts 5
+70 //bytes 2
+40 //bytes 2
+140 //bytes 2
+150 //bytes 2
+1600 //bytes 2
+//total size: 10 bytes
+
+[Hooks] //counts 6
+_Clip10 <BASE> //bytes 15
+_Engine1EF_01 <BASE> //bytes 21
+_Engine1EF_02 <BASE> //bytes 21
+_Engine1ES_01 <BASE> //bytes 21
+_Engine1ES_02 <BASE> //bytes 21
+_Engine1Smoke <BASE> //bytes 21
+//total size: 120 bytes
+
+[HookLoc] //counts 6
+0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 244 195 8 189 1 252 82 39 191 1 187 15 16 191  //bytes 42
+1 189 55 134 52 0 1 0 0 0 0 0 255 255 1 189 55 134 52 0 0 0 0 0 0 0 0 0 0 1 0 1 3 125 226 190 1 42 116 142 62 1 251 58 192 190  //bytes 46
+1 189 55 134 52 0 1 0 0 0 0 0 255 255 1 189 55 134 52 0 0 0 0 0 0 0 0 0 0 1 0 1 182 45 202 62 1 42 116 142 62 1 251 58 192 190  //bytes 46
+1 189 55 134 52 0 1 0 0 0 0 0 255 255 1 189 55 134 52 0 0 0 0 0 0 0 0 0 0 1 0 1 3 125 226 190 1 42 116 142 62 1 251 58 192 1
